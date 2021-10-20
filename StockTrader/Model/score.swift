@@ -8,24 +8,15 @@
 import Foundation
 
 struct score: Codable{
-    let status: Int
-    let data: [mydata]
+    let id: Int
+    let language_code: String
+    let content:String
+    let url: String
+    let originator: originators
 }
 
-struct mydata: Codable{
-    
-    let away_team: String
-    let competition :String
-    let country:String
-    let date:String
-    let fixture_status:String
-    let home_team: String
-    let id:Int
-    let market_name:String
-    let odd:String
-    let prediction:String
-    let probability:String
-    let results:String
-    let sport_id:Int
-    let sport_name:String
+struct originators: Codable {
+    let id: Int
+    let name:String
+    let url: String
 }

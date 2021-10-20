@@ -7,14 +7,35 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class ViewController: UIViewController, scoreDelgate {
+    
+    
+    
+    func didupdateUI(_ myscore: score) {
+        print(myscore.content)
+        mylabel.text = myscore.content
+    }
+    
+    
+
+    
+    var smth = my_data()
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        let smth = my_data()
+        smth.delegate = self
+        
+    }
+    
+    
+    @IBAction func mybutton(_ sender: Any) {
         smth.fetchData()
     }
-
+    
+    
+    @IBOutlet weak var mylabel: UILabel!
+    
+    
 
 }
 
