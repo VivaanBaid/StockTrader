@@ -7,17 +7,17 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "D2975631-579E-4F2C-87BE-4E6FD13A1B6E"
+            uuid = "401D2319-CD91-4A8B-A342-AF78510F5929"
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "StockTrader/Model/score.swift"
+            filePath = "StockTrader/Model/Api_call.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "17"
-            endingLineNumber = "17"
-            landmarkName = "mydata"
-            landmarkType = "14">
+            startingLineNumber = "18"
+            endingLineNumber = "18"
+            landmarkName = "fetchData()"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>
